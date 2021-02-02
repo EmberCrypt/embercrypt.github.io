@@ -13,7 +13,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-locale: "en-GB"
 title: EmberCrypt
 subtitle: "Embedded Security | Reverse Engineering | Fault Attacks"
 email: jan@embercrypt.com
@@ -26,7 +25,6 @@ twitter_username: embercrypt
 github_username: embercrypt
 minimal_mistakes_skin: air
 search: true
-repository: embercrypt/embercrypt.github.io
 
 # Build settings
 markdown: kramdown
