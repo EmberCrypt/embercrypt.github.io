@@ -2,15 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
+url: http://embercrypt.com
+title: EmberCrypt
+subtitle: "Embedded Security | Reverse Engineering | Side-Channel Attacks"
+email: jan@embercrypt.com
+author: Jan Van den Herrewegen
 description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
+  Specialised in embedded device security. Firmware readout and reverse engineering of Electronic Control Units and various other embedded devices (keyfobs, ...)
+copyright: 'Copyright &copy; 2021 EmberCrypt. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
@@ -26,9 +25,15 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: email
+    url: mailto:jan@embercrypt.com
+    fav: envelope
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://twitter.com/crypt_ember
+    fav: twitter
+  - title: git
+    url: https://github.com/embercrypt
+    fav: github
+  - title: pgp
+    url: assets/pgp.asc
+    fav: lock
