@@ -1,0 +1,21 @@
+<section id="publications">
+{% for pub in page.pubs %}
+	<div class="content-section-a">
+		<div class="container">
+		    <div class="row">
+			<div class="col">
+			    <hr class="section-heading-spacer">
+			    <div class="clearfix"></div>
+			    <h2 class="section-heading"><a href="{{ pub.link }}">{{ pub.name }}</a></h2>
+			    <div class="lead"><i>{{ pub.ref }}</i></div>
+			</div>
+			<div class="col">
+				{{ pub.abstract }} 
+			</div>
+		    </div>
+
+		</div>
+	</div>
+{% endfor %}
+
+</section>
