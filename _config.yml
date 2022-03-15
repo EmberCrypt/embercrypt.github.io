@@ -35,5 +35,5 @@ social:
     url: https://github.com/embercrypt
     fav: github
   - title: pgp
-    url: assets/pgp.asc
+    url: /assets/pgp.asc
     fav: lock
