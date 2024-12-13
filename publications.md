@@ -4,6 +4,14 @@ title: EmberCrypt
 subTitle: "Publications"
 description: Published articles
 pubs:
+ - name: Disabling censorship on SPC5606B chips
+   link: /assets/pubs/nxp_disable_censorship.pdf
+   ref: 
+   abstract: "We propose an attack to disable the protection mechanism on a censored NXP SPC5606B, configured to use the public password. When censored, any flash memory read returns the same 16 byte block at ad-
+dress 0. Building on previous attacks on this chip (in the private password configuration), we uncover several anomalies when exposed to Voltage - and Electromagnetic Fault Injection (V-FI & EMFI), ultimately leading to the uncensoring of the device and giving us full read/write access to its flash memory. First, we analyse part of the bootloader code and direct our efforts to glitch that, gifting us a first plausible set of attack parameters. Though EMFI yields interesting results (e.g., the chip allows download with the private password), the flash memory remains censored. Finally, after establishing a power consumption side channel of a much earlier stage of the boot process, V-FI and EMFI pulses cause reads of the flash memory to return 16 byte blocks other than the starting block. Zooming in on this, we find the offset which disables censorship altogether, giving us full access to the devices flash memory. Finally, we discuss the plausible causes of the anomalous behaviour, and revisit the use and limits of fully automated approaches to fault injection."
+
+
+
  - name: Automotive Firmware Analysis and Extraction Techniques
    link: /assets/pubs/Automotive_Firmware_Extraction_Analysis.pdf
    ref: Van den Herrewegen, J. (2021). PhD Thesis. University of Birmingham, UK.
