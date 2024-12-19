@@ -1,35 +1,41 @@
-# Landing Page Jekyll theme
+*A version of soon based on [Eleventy] and [Tailwind CSS] is available
+at **[soon-11ty]**.*
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+----------
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+# Soon
 
-```txt
----
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
-```
+## Introduction
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+Soon is a Jekyll site that produces a "coming soon" page.  You can preview
+the site [here](https://kelvinmo.github.io/soon).
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+Additional optional features include:
 
-===
+* A countdown clock
+* Mailing list subscription form
+* Social media links
 
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
+## Customisation
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+The main content can be customised in `index.md`.
 
-## Version
-1.0.1
+Most of the configuration can be done in `_config.yml`.  Fine-tuning of
+styles and additional content can be done in `soon.scss` and the
+partials in the `_includes` directory.
+
+The styles are largely based on a heavily simplified version of
+[Bulma](https://bulma.io).
+
+## Licence
+
+BSD 3 clause.
+
+## Placeholder Artwork Credits
+
+* Placholder background from [Pexels](https://www.pexels.com/photo/abstract-art-astronomy-background-220071/)
+* Placeholder logo from [LogoDust](http://logodust.com/)
+
+[Eleventy]: https://11ty.dev/
+[Tailwind CSS]: https://tailwindcss.com/
+[soon-11ty]: https://github.com/kelvinmo/soon-11ty
