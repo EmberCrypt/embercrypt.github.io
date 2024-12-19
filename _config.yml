@@ -1,39 +1,53 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# Site settings
+# Site title
+title: EmberCrypt Power Station
 
-url: http://embercrypt.com
-title: EmberCrypt
-subtitle: "Embedded Security | Reverse Engineering | Side-Channel Attacks"
-email: jan@embercrypt.com
-author: Jan Van den Herrewegen
-description: > # "Write an awesome description for your new site here. 
-  Specialised in embedded device security. Firmware readout and reverse engineering of Electronic Control Units and various other embedded devices (keyfobs, immobilisers, keyless entry, diagnostics)
-copyright: 'Copyright &copy; 2021 Ember Crypt LTD. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+# Site description
+description: Homepage of EmberCrypt BV... Exciting times ahead full of EV battery recycling, off-grid power storage, ...
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# Site background
+background: "images/background.jpg"
+
+# Site logo
+logo: "images/logo.png"
+
+# Countdown clock
+# (This can be commented out if not required.)
+countdown:
+  # format: 
+  launch_date: "2025-06-22"
+  # %d, %H, %M, %S available
+  format: "%d days, %H hours"
+
+# Mailing list subscription
+# (This can be commented out if not required.)
+subscribe:
+  action: "https://weightless.so/api/lists/tnbzp9z3/subscribe"
+
+# Social media links
+# (This can be commented out if not required.)
+#social:
+  facebook: "#"
+  twitter: "#"
+  google: "#"
+  instagram: "#"
+  pinterest: "#"
+  snapchat: "#"
+  linkedin: "in/#"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: email
-    url: mailto:jan@embercrypt.com
-    fav: envelope
-  - title: twitter
-    url: https://twitter.com/crypt_ember
-    fav: twitter
-  - title: git
-    url: https://github.com/embercrypt
-    fav: github
-  - title: pgp
-    url: /assets/pgp.asc
-    fav: lock
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - README.md
+   - COPYING.txt
