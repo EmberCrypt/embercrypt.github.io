@@ -21,8 +21,8 @@ countdown:
 
 # Mailing list subscription
 # (This can be commented out if not required.)
-subscribe:
-  action: "https://weightless.so/api/lists/tnbzp9z3/subscribe"
+#subscribe:
+#  action: "https://weightless.so/api/lists/tnbzp9z3/subscribe"
 
 # Social media links
 # (This can be commented out if not required.)
